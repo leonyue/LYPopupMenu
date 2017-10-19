@@ -139,8 +139,6 @@
     if (self.item.title && self.item.image) {
         CGSize imageSize = [self.button.imageView sizeThatFits:CGSizeZero];
         CGSize titleSize = [self.button.titleLabel sizeThatFits:CGSizeZero];
-        
-        self.button.titleLabel.backgroundColor = [UIColor redColor];
         self.button.titleEdgeInsets = UIEdgeInsetsMake(0, -imageSize.width,  -imageSize.height - 5,  0);
         self.button.imageEdgeInsets = UIEdgeInsetsMake( -titleSize.height - 5,  0,  0,  -titleSize.width);
     } else {
