@@ -9,6 +9,10 @@ Add auto height
 Add image top title bottom menuItem
 
 ![](LYPopupMenu.gif)
+
+## CocoaPods
+pod 'LYPopupMenu', '~> 0.0.1'
+
 ## Demo codes
 ```
 LYPopupMenuItem *item = [LYPopupMenuItem itemWithTitle:@"标准地图" image:[UIImage imageNamed:@"standard_map"] target:self action:@selector(action:)];
