@@ -1,10 +1,15 @@
 # LYPopupMenu
 
-## Based on QBPopupMenu
+Based on QBPopupMenu
+
 Add showSeperator property
+
 Add auto height
+
 Add image top title bottom menuItem
+
 ![](LYPopupMenu.gif)
+## Demo codes
 ```
 LYPopupMenuItem *item = [LYPopupMenuItem itemWithTitle:@"标准地图" image:[UIImage imageNamed:@"standard_map"] target:self action:@selector(action:)];
     LYPopupMenuItem *item2 = [LYPopupMenuItem itemWithTitle:@"卫星地图" image:[UIImage imageNamed:@"satellite_map"] target:self action:@selector(action:)];
